@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/didaryilmaz/Documents/GitHub/Inheritance/EntityFrameworkDemo/EntityFrameworkDemo.csproj": {}
+    "/Users/didaryilmaz/Projects/EntityFrameworkDemo/EntityFrameworkDemo/EntityFrameworkDemo.csproj": {}
   },
   "projects": {
-    "/Users/didaryilmaz/Documents/GitHub/Inheritance/EntityFrameworkDemo/EntityFrameworkDemo.csproj": {
+    "/Users/didaryilmaz/Projects/EntityFrameworkDemo/EntityFrameworkDemo/EntityFrameworkDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/didaryilmaz/Documents/GitHub/Inheritance/EntityFrameworkDemo/EntityFrameworkDemo.csproj",
+        "projectUniqueName": "/Users/didaryilmaz/Projects/EntityFrameworkDemo/EntityFrameworkDemo/EntityFrameworkDemo.csproj",
         "projectName": "EntityFrameworkDemo",
-        "projectPath": "/Users/didaryilmaz/Documents/GitHub/Inheritance/EntityFrameworkDemo/EntityFrameworkDemo.csproj",
+        "projectPath": "/Users/didaryilmaz/Projects/EntityFrameworkDemo/EntityFrameworkDemo/EntityFrameworkDemo.csproj",
         "packagesPath": "/Users/didaryilmaz/.nuget/packages/",
-        "outputPath": "/Users/didaryilmaz/Documents/GitHub/Inheritance/EntityFrameworkDemo/obj/",
+        "outputPath": "/Users/didaryilmaz/Projects/EntityFrameworkDemo/EntityFrameworkDemo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/didaryilmaz/.config/NuGet/NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
